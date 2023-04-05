@@ -21,10 +21,6 @@
  */
 #pragma once
 
-////////////////////////////
-// VENDOR VERSION EXAMPLE //
-////////////////////////////
-
 /**
  * Marlin release version identifier
  */
@@ -46,7 +42,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "BIQU-B1"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -54,7 +50,7 @@
  * has a distinct Github fork— the Source Code URL should just be the main
  * Marlin repository.
  */
-//#define SOURCE_CODE_URL "github.com/MarlinFirmware/Marlin"
+#define SOURCE_CODE_URL "github.com/aklef/BIQUB1Marlin"
 
 /**
  * Default generic printer UUID.
